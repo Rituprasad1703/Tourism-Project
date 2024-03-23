@@ -48,6 +48,7 @@ body{
     background-color: #fff;
     transition: 0.3s ease;
 }
+
 .container form .form.second{   /*the space between .form and .second is very important*/
     opacity: 0;
     pointer-events: none;
@@ -108,7 +109,7 @@ form .fields .input-field{
 .input-field input[type="date"]:valid{
     color: #333;
 }
-.container form button,.backBtn{
+.container form button, .backBtn{
     display: flex;
     justify-content: center;
     align-items: center;
